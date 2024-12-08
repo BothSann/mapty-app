@@ -19,10 +19,6 @@ class Workout {
       months[this.date.getMonth()]
     } ${this.date.getDate()}`;
   }
-
-  // click() {
-  //   this.clicks++;
-  // }
 }
 
 class Running extends Workout {
@@ -42,7 +38,6 @@ class Running extends Workout {
 
 class Cycling extends Workout {
   type = 'cycling';
-
   constructor(coords, distance, duration, elevationGain) {
     super(coords, distance, duration);
     this.elevationGain = elevationGain;
@@ -55,10 +50,6 @@ class Cycling extends Workout {
     return this.speed;
   }
 }
-
-// const run1 = new Running([39, -12], 5.2, 24, 120);
-// const cycling2 = new Cycling([39, -12], 10, 95, 521);
-// console.log(run1, cycling2);
 
 /////////////////////////////////////////
 // APPLICATION ARCHITECTURE
@@ -165,9 +156,6 @@ class App {
       const cadence = +inputCadence.value;
       // Check if  data is valid
       if (
-        // !Number.isFinite(distance) ||
-        // !Number.isFinite(duration) ||
-        // !Number.isFinite(cadence)
         !validInputs(distance, duration, cadence) ||
         !allPositive(distance, duration, cadence)
       )
