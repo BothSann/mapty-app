@@ -14,7 +14,6 @@ Mapty is a web application that allows users to log and map their workouts. Whet
 - 🚴‍♀️ **Log cycling workouts** with distance, duration, and elevation gain.
 - 🗺️ **View workouts on an interactive map** with custom markers.
 - 💾 **Store workout data** in local storage to keep track across sessions.
-- 📱 **Responsive design** for a smooth experience on all devices.
 
 ---
 
