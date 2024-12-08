@@ -4,7 +4,7 @@ Mapty is a web application that allows users to log and map their workouts. Whet
 
 ## 🖼️ Screenshot
 
-![Screenshot](screenshot-1.PNG)
+![Screenshot](screenshots/screenshot-1.PNG)
 
 ---
 
